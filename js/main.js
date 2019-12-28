@@ -53,15 +53,15 @@
     });
 
     document.querySelector("#btn-champ").addEventListener("click", function(e) {
-        if ((document.querySelector("#roles").value) == "Top") {
+        if ((document.querySelector("#role").innerHTML) == "Top") {
             document.querySelector("#champ").innerHTML = randomChamp(Top);
-        } else if ((document.querySelector("#roles").value) == "Mid") {
+        } else if ((document.querySelector("#role").innerHTML) == "Mid") {
             document.querySelector("#champ").innerHTML = randomChamp(Mid);
-        } else if ((document.querySelector("#roles").value) == "Jungle") {
+        } else if ((document.querySelector("#role").innerHTML) == "Jungle") {
             document.querySelector("#champ").innerHTML = randomChamp(Jungle);
-        } else if ((document.querySelector("#roles").value) == "Adc") {
+        } else if ((document.querySelector("#role").innerHTML) == "Adc") {
             document.querySelector("#champ").innerHTML = randomChamp(Adc);
-        } else if ((document.querySelector("#roles").value) == "Support") {
+        } else if ((document.querySelector("#role").innerHTML) == "Support") {
             document.querySelector("#champ").innerHTML = randomChamp(Support);
         }
         e.preventDefault();
