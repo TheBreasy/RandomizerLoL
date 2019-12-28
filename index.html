@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Merriweather&display=swap" rel="stylesheet">
+    <title>Random champ picker | League of Legends</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Randomizer for LoL</h1>
+    </header>
+
+    <section class="clearfix">
+        <h2>Randomize your role and champ</h2>
+
+        <div class="clearfix">
+            <ul>
+                <li class="float-left">
+                    <p>Your role</p>
+                    <p id="role">none selected</p>
+                    <select name="roles" id="roles">
+                        <option value="Top">Top</option>
+                        <option value="Mid">Mid</option>
+                        <option value="Jungle">Jungle</option>
+                        <option value="Adc">Adc</option>
+                        <option value="Support">Support</option>
+                    </select>
+                    <p>or</p>
+                    <a id="btn-role" class="orange-btn" href="#">Random role</a>
+                </li>
+
+                <li class="float-right">
+                    <p>Your champ</p>
+                    <p id="champ">none selected</p>
+                    <a id="btn-champ" class="orange-btn" href="#">Pick my champ</a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section>
+        <a class="rainbow-btn" href="#">Random all</a>
+    </section>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
