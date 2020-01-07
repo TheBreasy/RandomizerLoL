@@ -64,6 +64,10 @@
         } else if ((document.querySelector("#role").innerHTML) == "Support") {
             document.querySelector("#champ").innerHTML = randomChamp(Support);
         }
+
+        if (document.querySelector("#role").innerHTML == "Mid" && document.querySelector("#champ").innerHTML == "akali") {
+            document.querySelector("#champ").innerHTML = "Jens, it's AKALI but please don't feed mid...";
+        }
         e.preventDefault();
     });
 
