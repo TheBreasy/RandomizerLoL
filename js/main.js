@@ -72,3 +72,5 @@
         document.querySelector("#champ").innerHTML = randomChamp(allChamps);
         e.preventDefault();
     });
+
+    document.querySelector("#role").innerHTML = document.querySelector("#roles").value;
