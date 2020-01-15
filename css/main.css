@@ -134,9 +134,12 @@ div {
     body {
         background-position: left -44% bottom -29%;
     }
+    h1 {
+        padding: 2em;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     h1 {
         padding: 1em;
     }
