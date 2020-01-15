@@ -1,3 +1,12 @@
+body {
+    background-color: #fff7f7;
+    font-family: 'Cabin', sans-serif;
+    background-image: url("../images/taric.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -108px 650px;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
     margin-left: auto;
@@ -7,37 +16,22 @@ h1 {
     padding: 4em;
     text-align: center;
     width: 330px;
-    color: white;
+    color: #fff7f7;
     max-width: 100%;
 }
 
-h2,
 h3,
-p,
-a,
-select,
-option {
-    font-family: 'Cabin', sans-serif;
-}
-
 li p {
-    color: white;
-}
-
-h3 {
-    color: white;
+    color: #fff7f7;
 }
 
 header {
     max-height: 100%;
-    background-image: url("../images/blue-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #241494;
 }
 
 section {
     text-align: center;
-    margin: 1em;
 }
 
 ul {
@@ -49,13 +43,18 @@ ul {
 li {
     display: inline-block;
     margin: 1em 3em;
-    background-image: url("../images/blue-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #241494;
     border-radius: 10px;
     padding: 1em;
     height: 400px;
     width: 300px;
+}
+
+.taric {
+    background-image: url("../images/taric2.png");
+    background-size: 500px;
+    background-position-x: 1095px;
+    background-repeat: no-repeat;
 }
 
 .clearfix::after {
@@ -80,11 +79,9 @@ div {
 
 .orange-btn {
     text-decoration: none;
-    color: white;
+    color: #fff7f7;
+    background-image: linear-gradient(to right, #ff24e4, #fe0259);
     padding: 0.5em 1em;
-    background-image: url("../images/orange-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10px;
     margin: 1em 0;
 }
@@ -97,6 +94,10 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+}
+
+.allRandom {
+    margin-bottom: 2em;
 }
 
 #role {
