@@ -4,7 +4,7 @@ body {
     background-image: url("../images/taric.png");
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position: -108px 650px;
+    background-position: left -14% bottom -30%;
 }
 
 h1 {
@@ -53,7 +53,7 @@ li {
 .taric {
     background-image: url("../images/taric2.png");
     background-size: 500px;
-    background-position-x: 1095px;
+    background-position: right -17% bottom;
     background-repeat: no-repeat;
 }
 
